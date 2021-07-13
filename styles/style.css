@@ -12,16 +12,17 @@ body{
     height: 600px;
     display: flex;
     justify-content: center;  
+    margin-bottom: 70px;
 }
 .top-banner{
     display: flex;
-    padding: 30px;
+    margin-left: 20px;
 }
 .banner-tittle{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 .title{
     line-height: 90px;
@@ -39,9 +40,48 @@ body{
 .fa-arrow-right{
     margin-left: 10px;
 }
-.top-banner-image img{
+.top-banner-image{
     width: 556px;
     height: 438px;
     margin-top: 80px;
-    margin-left: 102px;
+    margin-left: 70px;
+}
+/* player section  */
+.player-section{
+    background-color: #FFFFFF;
+}
+.player-section{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 330px;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.player h2{
+    color: #18191F;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 15px;
 }
