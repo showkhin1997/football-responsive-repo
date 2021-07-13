@@ -85,8 +85,8 @@ body{
     text-align: justify;
     margin: 5px 15px;
 }
-/* bottom section  */
-.bottom-section-one{
+/* bottom section  allhighlights*/
+.bottom-section-allhighlights{
     display: flex;
     margin-top: 165px;
 }
@@ -113,7 +113,71 @@ body{
     width: 550px;
     height: 410px;
     margin-right: 30px;
-    margin-bottom: 158px;
+    margin-bottom: 120px;
+}
+/* Pricing for all club sizes! */
+.pacage-details{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.bttom-section-pricing h2{
+    margin-left: 400px;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 10px 10px 10px gray;
+    margin-bottom: 60px;
+}
+.starter{
+    width: 300px;
+    height: 520px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 40px rgb(184, 184, 184);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(197, 239, 255);
+}
+.starter h3{
+    text-align: center;
+}
+.starter P{
+    padding-left: 50PX;
+    font-weight: bold;
+    font-size: 16px;
+}
+.starter li{
+    line-height: 40px;
+}
+.pacage-details a{
+    border-radius: 20px;
+    margin: 30px;
+}
+.intermediate{
+    background-color: rgb(237, 255, 138);
+    margin-left: 80px;
+}
+/* Copa America Story */
+.copa-america-story{
+    display: flex;
+    margin-bottom: 150px;
+    padding: 30px;
+    background-color: honeydew;
+}
+.copa-america-description h2{
+    font-size: 40px;
+}
+.copa-america-description p{
+    margin-right: 60px;
+    text-align: justify;
+    color: rgb(102, 102, 102);
+}
+.winner-video video{
+    width: 500px;
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.774);
+    box-shadow: 10px 10px 50px gray;
 }
 /* footer section */
 .footer-section{
