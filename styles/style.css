@@ -5,7 +5,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* top section style  */
+/* --------
+top section style  
+-----------*/
 .top-section{
     background-color: #2D25A0;
     width: 100%;
@@ -54,7 +56,9 @@ body{
     margin-top: 80px;
     margin-left: 70px;
 }
-/* player section  */
+/* -------------
+player section 
+--------------- */
 .player-section{
     background-color: #FFFFFF;
 }
@@ -97,7 +101,9 @@ body{
     text-align: justify;
     margin: 5px 15px;
 }
-/* bottom section  allhighlights*/
+/* -------------------------
+bottom section  allhighlights
+---------------------------*/
 .bottom-section-allhighlights{
     display: flex;
     margin-top: 165px;
@@ -127,7 +133,9 @@ body{
     margin-right: 30px;
     margin-bottom: 120px;
 }
-/* Pricing for all club sizes! */
+/* -----------------
+Pricing for all club sizes! 
+------------------------*/
 .pacage-details{
     display: flex;
     justify-content: center;
@@ -168,7 +176,9 @@ body{
     background-color: rgb(237, 255, 138);
     margin-left: 80px;
 }
-/* Copa America Story */
+/* ----------------
+Copa America Story 
+-------------------*/
 .copa-america-story{
     display: flex;
     margin-bottom: 150px;
@@ -191,7 +201,9 @@ body{
     background-color: rgba(128, 128, 128, 0.774);
     box-shadow: 10px 10px 50px gray;
 }
-/* footer section */
+/* ----------------
+footer section 
+----------------*/
 .footer-section{
     margin-left: 30%;
     margin-bottom: 55px;
@@ -221,4 +233,82 @@ body{
 #copyright span{
     font-size: 14px;
     font-weight: normal;
+}
+/* Media Query or Responsive */
+/* Mobile Devices */
+@media only screen and (max-width: 688px){
+    .top-section{
+        background-color: #2D25A0;
+        height: 100%;
+    }
+    .banner-tittle{
+        margin-top: 5px;
+        font-size: 35px;
+        padding: 5px;
+    }
+    .top-banner-image{
+        width: 300px;
+        height: 400px;
+    }
+    .top-banner{
+        display: grid;
+        width: 100%;
+    }
+    .players, .bottom-section-allhighlights, .copa-america-story{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+    }
+    .bottom-section-discription h2{
+        margin-right: 20px;
+        margin-top: 5px;
+        width: 300px;
+    }
+    .bottom-section-discription p{
+        font-size: 20px;
+    }
+    .bottom-image img{
+        width: 370px;
+        height: 400px;
+        padding: 20px;
+    }
+    .bttom-section-pricing h2{
+        margin-top: 5px;
+        width: 300px;
+        margin-left: 70px;
+    }
+    .pacage-details{
+        display: grid;
+        grid-gap: 50px;
+    }
+    .starter{
+        margin-left: 20px;
+    }
+    .copa-america-description h2{
+       width: 60px;
+       margin-right: 60px;
+    }
+    .copa-america-description p{
+        font-size: 20px;
+       
+     }
+     .winner-video video{
+        width: 360px;
+        height: 400px;
+     }
+     #footer-image img{
+         width: 200px;
+         height: 50px;
+     }
+     #social-icons i{
+         width: 10px;
+         height: 10px;
+         padding: 5px;
+         margin-left: 2px;
+         font-size: 10px;
+     }
+     #copyright{
+         margin-left: 2px;
+     }
 }
