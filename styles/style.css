@@ -18,16 +18,16 @@ top section style
 }
 .top-banner{
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .banner-tittle{
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 50px;
-    margin-top: 90px;
+    font-size: 40px;
+    margin-top: 100px;
 }
 .title{
-    line-height: 90px;
+    line-height:110px;
     margin-bottom: 5px;
 }
 .link-button{
@@ -50,7 +50,7 @@ top section style
     width: 556px;
     height: 438px;
     margin-top: 80px;
-    margin-left: 70px;
+    margin-left: 10px;
 }
 /* -------------
 player section 
