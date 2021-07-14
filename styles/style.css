@@ -234,6 +234,7 @@ footer section
     font-size: 14px;
     font-weight: normal;
 }
+
 /* Media Query or Responsive */
 /* Mobile Devices */
 @media only screen and (max-width: 688px){
@@ -296,6 +297,99 @@ footer section
      .winner-video video{
         width: 360px;
         height: 400px;
+     }
+     #footer-image img{
+         width: 200px;
+         height: 50px;
+     }
+     #social-icons i{
+         width: 10px;
+         height: 10px;
+         padding: 5px;
+         margin-left: 2px;
+         font-size: 10px;
+     }
+     #copyright{
+         margin-left: 2px;
+     }
+}
+/* -------------
+Tablet Device 
+------------*/
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .top-section{
+        background-color: #2D25A0;
+        height: 100%;
+        width: 100%;
+    }
+    .banner-tittle{
+        margin-top: 5px;
+        font-size: 35px;
+        padding: 5px;
+    }
+    .top-banner-image img{
+        width: 250px;
+        height: 350px;
+        margin-left: 70px;
+    }
+    .top-banner{
+        display: grid;
+        width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+    }
+    .bottom-section-allhighlights{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bottom-section-discription h2{
+        margin-right: 20px;
+        margin-top: 5px;
+        width: 500px;
+    }
+    .bottom-section-discription p{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .bottom-image img{
+        margin-top: 50px;
+        width: 550px;
+        height: 400px;
+        padding: 20px;
+        margin-left: 80px;
+    }
+    .bttom-section-pricing h2{
+        margin-top: 5px;
+        width: 550px;
+        margin-left: 150px;
+    }
+    .pacage-details{
+        display: grid;
+        grid-gap: 50px;
+    }
+    .starter{
+        margin-left: 20px;
+    }
+    .copa-america-story{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .copa-america-description h2{
+       width: 550px;
+       margin-right: 70px;
+    }
+    .copa-america-description p{
+        font-size: 30px;
+       
+     }
+     .winner-video video{
+        width: 600px;
+        height: 400px;
+        margin-left: 50px;
      }
      #footer-image img{
          width: 200px;
