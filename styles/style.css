@@ -26,10 +26,6 @@ top section style
     font-size: 50px;
     margin-top: 90px;
 }
-.title:hover{
-    transform: rotate(-5deg);
-    transition: transform 1.0s;
-}
 .title{
     line-height: 90px;
     margin-bottom: 5px;
