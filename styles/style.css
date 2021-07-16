@@ -234,6 +234,11 @@ footer section
 @media only screen and (max-width: 688px){
     body{
         width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
     }
     .top-section{
         background-color: #2D25A0;
