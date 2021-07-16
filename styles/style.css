@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    width: 100%;
 }
 /* --------
 top section style  
@@ -231,6 +232,9 @@ footer section
 /* Media Query or Responsive */
 /* Mobile Devices */
 @media only screen and (max-width: 688px){
+    body{
+        width: 100%;
+    }
     .top-section{
         background-color: #2D25A0;
         height: 100%;
